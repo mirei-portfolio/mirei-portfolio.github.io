@@ -197,6 +197,11 @@ header {
     margin: 10px 0 0 0;
     line-height: 1.5;
 }
+
+.sp_br {
+    display: none;
+}
+
 /*works*/
 #m_works {
     max-width: 960px;
@@ -675,6 +680,10 @@ small {
     .m_about_list {
         width: 100%;
         margin-top: 0
+    }
+
+    .sp_br {
+        display: inline;
     }
 
     #m_works {
